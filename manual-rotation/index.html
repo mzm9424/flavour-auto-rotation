@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<title>ROTATING CONTENT SLIDER – GSAP Elementor Tutorial &#8211; Portfolio 1</title>
+<link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
+<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCormorant%20Garamond%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCormorant%20Garamond%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCormorant%20Garamond%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap"></noscript><link rel="preload" data-rocket-preload as="image" href="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-scaled.png" fetchpriority="high">
+<meta name='robots' content='max-image-preview:large' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Portfolio 1 &raquo; Feed" href="https://lightslategray-goshawk-148039.hostingersite.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Portfolio 1 &raquo; Comments Feed" href="https://lightslategray-goshawk-148039.hostingersite.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://lightslategray-goshawk-148039.hostingersite.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flightslategray-goshawk-148039.hostingersite.com%2Frotating-content%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://lightslategray-goshawk-148039.hostingersite.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flightslategray-goshawk-148039.hostingersite.com%2Frotating-content%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='hello-elementor-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/reset.css?ver=1791963101' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-theme-style-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/theme.css?ver=1791963101' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-header-footer-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=1791963101' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1791963100' media='all' />
+<link rel='stylesheet' id='elementor-post-143-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/elementor/css/post-143.css?ver=1791963100' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.3.5' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1791963100' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.3.5' media='all' />
+<link rel='stylesheet' id='elementor-post-567-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/elementor/css/post-567.css?ver=1791963107' media='all' />
+
+
+
+
+<link data-minify="1" rel='stylesheet' id='elementor-icons-skb_cife-linearicons-icon-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/linearicons.css?ver=1791963107' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-skb_cife-themify-icon-css' href='https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1791963107' media='all' />
+<script id="jquery-core-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://lightslategray-goshawk-148039.hostingersite.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://lightslategray-goshawk-148039.hostingersite.com/wp-json/wp/v2/pages/567" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lightslategray-goshawk-148039.hostingersite.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.3" />
+<link rel="canonical" href="https://lightslategray-goshawk-148039.hostingersite.com/rotating-content/" />
+<link rel='shortlink' href='https://lightslategray-goshawk-148039.hostingersite.com/?p=567' />
+<meta name="generator" content="Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /><meta name="generator" content="WP Rocket 3.23.5.1" data-wpr-features="wpr_minify_js wpr_preconnect_external_domains wpr_oci wpr_minify_css wpr_cdn wpr_preload_links wpr_desktop" /></head>
+<body class="wp-singular page-template page-template-elementor_canvas page page-id-567 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-canvas elementor-kit-143 elementor-page elementor-page-567">
+			<div  data-elementor-type="wp-page" data-elementor-id="567" class="elementor elementor-567" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-24c31b1 e-con-full ffy-header e-flex e-con e-child" data-id="24c31b1" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+		<div class="elementor-element elementor-element-ff6da68 e-con-full ffy-nav e-flex e-con e-child" data-id="ff6da68" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-d3f173e ffy-nav-btn ffy-nav-active elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="d3f173e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Home</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-197bf64 ffy-nav-btn elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="197bf64" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">About</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-5061a9a ffy-nav-btn elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="5061a9a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Shop</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-96a6306 ffy-nav-btn elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="96a6306" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Contact</span>
+					</span>
+					</a>
+								</div>
+				</div>
+				<div  class="elementor-element elementor-element-5f19891 elementor-shape-circle e-grid-align-right elementor-widget__width-inherit elementor-hidden-mobile elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="5f19891" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-lnr-cart elementor-repeater-item-fdab7ba" href="https://template2.nicolaipalmkvist.com/product/orange-puffer-jacket/" target="_blank">
+						<span class="elementor-screen-only">Lnr-cart</span>
+						<i aria-hidden="true" class="lnr lnr-cart"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-ti-search elementor-repeater-item-4911340" href="https://template2.nicolaipalmkvist.com/product/orange-puffer-jacket/" target="_blank">
+						<span class="elementor-screen-only">Ti-search</span>
+						<i aria-hidden="true" class=" ti-search"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+		<div  class="elementor-element elementor-element-1d673e29 e-con-full app-container e-flex e-con e-parent" data-id="1d673e29" data-element_type="container" data-e-type="container" id="app">
+		<div  class="elementor-element elementor-element-2cb65e0f bg-overlay e-con-full e-flex e-con e-child" data-id="2cb65e0f" data-element_type="container" data-e-type="container" id="bg-overlay">
+				</div>
+		<div class="elementor-element elementor-element-57df1441 info-layer e-flex e-con-boxed e-con e-child" data-id="57df1441" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+					<div  class="e-con-inner">
+		<div class="elementor-element elementor-element-38c7cafb e-con-full text-content e-flex e-con e-child" data-id="38c7cafb" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-69797b57 title elementor-absolute elementor-widget elementor-widget-heading" data-id="69797b57" data-element_type="widget" data-e-type="widget" id="title" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Pumpkin</h1>				</div>
+				<div class="elementor-element elementor-element-6b5795df description elementor-absolute elementor-widget elementor-widget-text-editor" data-id="6b5795df" data-element_type="widget" data-e-type="widget" id="description" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+									<div><div>Indulge in the exquisite delight of our luscious Strawberry Dream Pie. Picture a buttery golden crust, cradling a symphony of vibrant, juicy strawberries.</div></div>								</div>
+				<div class="elementor-element elementor-element-243f8c2 elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-absolute elementor-hidden-desktop elementor-hidden-laptop elementor-widget elementor-widget-button" data-id="243f8c2" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">See our products</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-3728a6d elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="3728a6d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">See our products</span>
+					</span>
+					</a>
+								</div>
+				</div>
+					</div>
+				</div>
+		<div  class="elementor-element elementor-element-52ff8bb8 e-flex e-con-boxed e-con e-child" data-id="52ff8bb8" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-73843508 elementor-widget elementor-widget-html" data-id="73843508" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					  <div class="nav-layer">
+            <button class="nav-btn prev-btn" id="prev-btn" aria-label="Previous">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="nav-btn next-btn" id="next-btn" aria-label="Next">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+        </div>				</div>
+					</div>
+				</div>
+		<div  class="elementor-element elementor-element-669d219c flavors-data e-flex e-con-boxed e-con e-child" data-id="669d219c" data-element_type="container" data-e-type="container" id="flavors-data">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-475fc2dc e-con-full flavor-data e-flex e-con e-child" data-id="475fc2dc" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-59e62c5e flavor-name elementor-widget elementor-widget-heading" data-id="59e62c5e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Kiwi</h3>				</div>
+				<div class="elementor-element elementor-element-4acb6c1e flavor-color elementor-widget elementor-widget-heading" data-id="4acb6c1e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">linear-gradient(270deg, #01451F 0%, #3F9418 100%)</p>				</div>
+				<div class="elementor-element elementor-element-6a929ea8 flavor-image elementor-widget elementor-widget-image" data-id="6a929ea8" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img fetchpriority="high" decoding="async" width="800" height="805" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1.png" class="attachment-large size-large wp-image-419" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1.png 806w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-298x300.png 298w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-150x150.png 150w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-768x773.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				<div class="elementor-element elementor-element-7fd1e55f flavor-bg-image elementor-widget elementor-widget-image" data-id="7fd1e55f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img decoding="async" width="2560" height="1440" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-scaled.png" class="attachment-full size-full wp-image-647" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-scaled.png 2560w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-300x169.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-1024x576.png 1024w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-768x432.png 768w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-1536x864.png 1536w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124319.633-2048x1152.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
+				<div class="elementor-element elementor-element-7dff2b86 flavor-desc elementor-widget elementor-widget-heading" data-id="7dff2b86" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Indulge in the exquisite delight of our luscious Strawberry Dream Pie. Picture a buttery golden crust, cradling a symphony of vibrant, juicy strawberries, glistening like rubies in the morning sun. </p>				</div>
+				</div>
+		<div class="elementor-element elementor-element-de63eed e-con-full flavor-data e-flex e-con e-child" data-id="de63eed" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-712a96ed flavor-name elementor-widget elementor-widget-heading" data-id="712a96ed" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Blackberry</h3>				</div>
+				<div class="elementor-element elementor-element-2a380189 flavor-color elementor-widget elementor-widget-heading" data-id="2a380189" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">linear-gradient(270deg, #25003D 0%, #7A16C7 100%)</p>				</div>
+				<div class="elementor-element elementor-element-4714bebd flavor-image elementor-widget elementor-widget-image" data-id="4714bebd" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img decoding="async" width="800" height="786" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-2-1.png" class="attachment-large size-large wp-image-423" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-2-1.png 800w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-2-1-300x295.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-2-1-768x755.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				<div class="elementor-element elementor-element-6511a6dd flavor-bg-image elementor-widget elementor-widget-image" data-id="6511a6dd" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-scaled.png" class="attachment-full size-full wp-image-654" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-scaled.png 2560w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-300x169.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-1024x576.png 1024w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-768x432.png 768w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-1536x864.png 1536w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-08T124648.647-2048x1152.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
+				<div class="elementor-element elementor-element-11ad1f1e flavor-desc elementor-widget elementor-widget-heading" data-id="11ad1f1e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Bursting with the bold flavor of wild blackberries, this pie is deep, rich, and beautifully juicy beneath a golden lattice crust. Finished with a sprinkle of coarse sugar for the perfect sweet crunch in every bite.</p>				</div>
+				</div>
+		<div class="elementor-element elementor-element-776089a e-con-full flavor-data e-flex e-con e-child" data-id="776089a" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-66fcd63a flavor-name elementor-widget elementor-widget-heading" data-id="66fcd63a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Banana</h3>				</div>
+				<div class="elementor-element elementor-element-589d3c60 flavor-color elementor-widget elementor-widget-heading" data-id="589d3c60" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">linear-gradient(270deg, #A86A00 0%, #F0B800 100%)</p>				</div>
+				<div class="elementor-element elementor-element-67526c9a flavor-image elementor-widget elementor-widget-image" data-id="67526c9a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="800" height="810" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-3-1.png" class="attachment-large size-large wp-image-425" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-3-1.png 905w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-3-1-296x300.png 296w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-3-1-768x777.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				<div class="elementor-element elementor-element-4d8a204b flavor-bg-image elementor-widget elementor-widget-image" data-id="4d8a204b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-scaled.png" class="attachment-full size-full wp-image-1167" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-scaled.png 2560w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-300x169.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-1024x576.png 1024w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-768x432.png 768w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-1536x864.png 1536w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Thumbails-2026-Engelsk-2026-07-28T163503.125-2048x1152.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
+				<div class="elementor-element elementor-element-7e86fae0 flavor-desc elementor-widget elementor-widget-heading" data-id="7e86fae0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Bright, zesty, and refreshingly tart, this Lemon Meringue pie features a silky citrus curd topped with clouds of toasted marshmallow meringue and a perfectly buttery crust.
+</p>				</div>
+				</div>
+		<div class="elementor-element elementor-element-73c41d0b e-con-full flavor-data e-flex e-con e-child" data-id="73c41d0b" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-5a1f85bd flavor-name elementor-widget elementor-widget-heading" data-id="5a1f85bd" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Strawberry</h3>				</div>
+				<div class="elementor-element elementor-element-6d6227d7 flavor-color elementor-widget elementor-widget-heading" data-id="6d6227d7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">linear-gradient(270deg, #8B0024 0%, #C90035 100%)</p>				</div>
+				<div class="elementor-element elementor-element-4353ebfe flavor-image elementor-widget elementor-widget-image" data-id="4353ebfe" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="800" height="789" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-1-1.png" class="attachment-large size-large wp-image-424" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-1-1.png 827w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-1-1-300x296.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/Bolw-1-1-768x758.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				<div class="elementor-element elementor-element-2d6fe633 flavor-bg-image elementor-widget elementor-widget-image" data-id="2d6fe633" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-scaled.png" class="attachment-full size-full wp-image-661" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-scaled.png 2560w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-300x169.png 300w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-1024x576.png 1024w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-768x432.png 768w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-1536x864.png 1536w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/10-2048x1152.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
+				<div class="elementor-element elementor-element-c5027d flavor-desc elementor-widget elementor-widget-heading" data-id="c5027d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Bursting with wild blackberry flavor, this pie is deep, rich, and beautifully juicy beneath a golden lattice crust, finished with coarse sugar for a delicate sweet crunch.
+</p>				</div>
+				</div>
+					</div>
+				</div>
+		<div  class="elementor-element elementor-element-7b46a1f9 e-con-full e-flex e-con e-child" data-id="7b46a1f9" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-3574a0ad e-con-full ring e-flex e-con e-child" data-id="3574a0ad" data-element_type="container" data-e-type="container" id="ring">
+				</div>
+		<div class="elementor-element elementor-element-600681ca e-con-full indicator-ring e-flex e-con e-child" data-id="600681ca" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-6cb8f259 e-con-full indicator-dot e-flex e-con e-child" data-id="6cb8f259" data-element_type="container" data-e-type="container">
+				</div>
+				</div>
+				</div>
+		<div  class="elementor-element elementor-element-4f21b4d8 e-con-full hero-layer e-flex e-con e-child" data-id="4f21b4d8" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-440d4bbe e-con-full pie-container e-flex e-con e-child" data-id="440d4bbe" data-element_type="container" data-e-type="container" id="pie-container">
+				<div class="elementor-element elementor-element-3787f82d hero-pie elementor-widget elementor-widget-image" data-id="3787f82d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img fetchpriority="high" decoding="async" width="800" height="805" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1.png" class="attachment-large size-large wp-image-419" alt="" srcset="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1.png 806w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-298x300.png 298w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-150x150.png 150w, https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1-768x773.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				</div>
+				</div>
+		<div  class="elementor-element elementor-element-4036adae e-con-full e-flex e-con e-parent" data-id="4036adae" data-element_type="container" data-e-type="container">
+				<div  class="elementor-element elementor-element-401324e2 elementor-widget elementor-widget-html" data-id="401324e2" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<style>
+ 
+:root {
+    --pie-size: min(80vw, 700px) !important;
+    --ring-gap: 60px !important;
+    --ring-size: calc(var(--pie-size) + var(--ring-gap) * 2) !important;
+    --shared-center-y: 90vh !important;
+}
+
+@media (max-width: 767px) {
+    :root {
+        --pie-size: min(80vw, 700px) !important;
+        --ring-gap: 60px !important;
+        --ring-size: calc(var(--pie-size) + var(--ring-gap) * 2) !important;
+        --shared-center-y: 100vh !important;
+    }
+}
+
+ 
+.app-container {
+    position: relative !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    color: #fff !important;
+    
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ 
+.app-container .e-con {
+    --gap: 0px !important;
+    gap: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.app-container .e-con-inner {
+    --gap: 0px !important;
+    gap: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ 
+.app-container .bg-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    /*background-color: #8a0303 !important;*/
+    transition: background-color 0.8s cubic-bezier(0.65, 0, 0.35, 1),
+                background-image 0.8s cubic-bezier(0.65, 0, 0.35, 1) !important;
+    z-index: 0 !important;
+    display: block !important;  /* Override Elementor flex */
+    min-height: 0 !important;
+}
+
+/* Hide the empty e-con-inner Elementor injects inside bg-overlay */
+.app-container .bg-overlay > .e-con-inner {
+    display: none !important;
+}
+
+/* ===========================================
+   INFO LAYER  (title + description)
+   =========================================== */
+.app-container .info-layer {
+    position: absolute !important;
+    top: 10% !important;
+    width: 100% !important;
+    max-width: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    min-height: 0 !important;
+}
+
+/* The e-con-inner added by Elementor's boxed container */
+.app-container .info-layer > .e-con-inner {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.app-container .text-content {
+    text-align: center !important;
+    max-width: 600px !important;
+    padding: 0 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* --- Title widget --- */
+.app-container .title {
+    font-family: 'Playfair Display', serif !important;
+    /*font-size: 3.5rem !important;*/
+    /*font-weight: 400 !important;*/
+    margin-bottom: 20px !important;
+    letter-spacing: 1px !important;
+    width: 100% !important;
+    overflow: visible !important;
+}
+
+.app-container .title h1 {
+    
+    
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+
+/* --- Description widget --- */
+.app-container .description {
+    /*font-size: 0.95rem !important;*/
+    /*line-height: 1.6 !important;*/
+    opacity: 0.9;
+    /*font-weight: 300 !important;*/
+    width: 100% !important;
+    overflow: visible !important;
+}
+
+.app-container .description p {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ===========================================
+   NAVIGATION LAYER
+   =========================================== */
+.app-container .nav-layer {
+    position: absolute !important;
+    top: 55% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 5% !important;
+    z-index: 10 !important;
+    transform: translateY(-50%) !important;
+    pointer-events: none !important;
+}
+
+.app-container .nav-btn {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    z-index: 20 !important;
+    pointer-events: auto !important;
+}
+
+.app-container .nav-btn:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ===========================================
+   FLAVOR DATA  (hidden data container)
+   =========================================== */
+.app-container .flavors-data,
+.app-container #flavors-data {
+    display: none !important;
+}
+
+/* ===========================================
+   CIRCLE CONTAINER
+   Parent of .ring + .indicator-ring.
+   This class is added by JS because Elementor
+   doesn't have it in the DOM by default.
+   =========================================== */
+.app-container .circle-container {
+    position: absolute !important;
+    left: 50% !important;
+    top: var(--shared-center-y) !important;
+    width: var(--ring-size) !important;
+    height: var(--ring-size) !important;
+    max-width: none !important;
+    transform: translate(-50%, -50%) !important;
+    pointer-events: none !important;
+    z-index: 6 !important;
+    display: block !important;  /* Override Elementor flex */
+    min-height: 0 !important;
+}
+
+/* ===========================================
+   RING  (the rotating text ring)
+   =========================================== */
+.app-container .ring {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    border-radius: 50% !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    /* CRITICAL: override Elementor's display:flex from .e-flex
+       so that .flavor-item children can be position:absolute */
+    display: block !important;
+    min-height: 0 !important;
+}
+
+/* --- Flavor items (JS-injected curved text) --- */
+.app-container .flavor-item {
+    position: absolute !important;
+    top: -40px !important;
+    left: 50% !important;
+    transform-origin: 50% calc(var(--ring-size) / 2 + 40px) !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    /*font-size: clamp(10px, 1.8vw, 1.1rem) !important;*/
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    opacity: 1 !important;
+    transition: opacity 0.3s ease !important;
+    margin-left: -50px !important;
+    width: 100px !important;
+}
+
+.app-container .flavor-char {
+    position: absolute !important;
+    top: 0 !important;
+    left: 50% !important;
+    width: 30px !important;
+    margin-left: -15px !important;
+    text-align: center !important;
+    transform-origin: 50% calc(var(--ring-size) / 2 + 40px) !important;
+}
+
+.app-container .flavor-item:hover {
+    opacity: 0.8 !important;
+}
+
+.app-container .flavor-item.active {
+    opacity: 1 !important;
+    font-weight: 600 !important;
+}
+
+/* ===========================================
+   INDICATOR RING + DOT
+   =========================================== */
+.app-container .indicator-ring {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    border-radius: 50% !important;
+    display: block !important;  /* Override Elementor flex */
+    min-height: 0 !important;
+}
+
+.app-container .indicator-dot {
+    position: absolute !important;
+    top: -6px !important;
+    left: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    max-width: none !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    transform: translateX(-50%) !important;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+    display: block !important;  /* Override Elementor flex */
+    min-height: 0 !important;
+    min-width: 0 !important;
+}
+
+/* ===========================================
+   HERO LAYER  (the big pie image)
+   =========================================== */
+.app-container .hero-layer {
+    position: absolute !important;
+    top: var(--shared-center-y) !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: var(--pie-size) !important;
+    height: var(--pie-size) !important;
+    max-width: none !important;
+    z-index: 5 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 0 !important;
+}
+
+/* --- Pie container --- */
+.app-container .pie-container {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    position: relative !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5) !important;
+    display: block !important;  /* Override Elementor flex */
+    min-height: 0 !important;
+}
+
+/* Hide the original Elementor placeholder image widget inside pie-container.
+   JS creates its own <img> elements for the animation. */
+.app-container .pie-container > .elementor-widget {
+    display: none !important;
+}
+
+/* Also hide via the .hero-pie class when it's on an Elementor widget div */
+.app-container .hero-pie.elementor-widget {
+    display: none !important;
+}
+
+/* --- Hero pie image (actual <img> tags created by JS) --- */
+.app-container img.hero-pie {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    transform-origin: center center !important;
+}
+
+/* ===========================================
+   MOBILE OVERRIDES
+   =========================================== */
+@media (max-width: 768px) {
+    :root {
+        --ring-gap: 20px !important;
+    }
+
+    .app-container .indicator-dot {
+        display: none !important;
+    }
+}
+
+</style>				</div>
+				<div  class="elementor-element elementor-element-40dc3cc6 elementor-widget elementor-widget-html" data-id="40dc3cc6" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					  <script data-minify="1" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/ajax/libs/gsap/3.12.2/gsap.min.js?ver=1785238879"></script>
+
+
+<script>
+ 
+
+ 
+// ============================================
+// WordPress/Elementor Circular Pie Animation
+// Fixed for Elementor's nested DOM structure
+// ============================================
+
+(function () {
+    'use strict';
+
+ 
+    const flavors = [];
+    document.querySelectorAll('#flavors-data .flavor-data').forEach(function (el) {
+        var nameEl  = el.querySelector('.flavor-name');
+        var colorEl = el.querySelector('.flavor-color');
+        var imageEl = el.querySelector('.flavor-image');
+        var bgImgEl = el.querySelector('.flavor-bg-image');
+        var descEl  = el.querySelector('.flavor-desc');
+
+        // Robustly extract text from whichever inner tag Elementor uses
+        var name  = nameEl  ? (nameEl.querySelector('h1,h2,h3,h4,h5,h6,p,span')  || nameEl).textContent.trim()  : '';
+        var color = colorEl ? (colorEl.querySelector('p,h1,h2,h3,h4,h5,h6,span') || colorEl).textContent.trim() : '';
+
+        // Image src lives on the <img> inside the Elementor image widget
+        var imgTag = imageEl ? imageEl.querySelector('img') : null;
+        var image  = imgTag  ? imgTag.getAttribute('src') : '';
+
+        // Background image
+        var bgTag      = bgImgEl ? bgImgEl.querySelector('img') : null;
+        var bgImageUrl = bgTag   ? bgTag.getAttribute('src') : '';
+        if (bgImageUrl === window.location.href || bgImageUrl === '') {
+            bgImageUrl = '';
+        }
+
+        // Description — extract plain text, NOT innerHTML (avoids escaped-HTML bug)
+        var desc = descEl ? (descEl.querySelector('p,span') || descEl).textContent.trim() : '';
+
+        flavors.push({ name: name, color: color, image: image, bgImage: bgImageUrl, desc: desc });
+    });
+
+    if (flavors.length === 0) {
+        console.warn('[Circular-Pie] No flavor data found in #flavors-data.');
+        return;
+    }
+
+    // --- DOM References ---
+    var ring         = document.getElementById('ring');
+    var bgOverlay    = document.getElementById('bg-overlay');
+    var pieContainer = document.getElementById('pie-container');
+
+    if (!ring || !bgOverlay || !pieContainer) {
+        console.warn('[Circular-Pie] Required elements (#ring, #bg-overlay, #pie-container) missing.');
+        return;
+    }
+
+    // Title: Elementor heading widget with id="title", <h1> is inside
+    var titleEl = document.querySelector('#title h1') || document.querySelector('#title');
+
+    // Description: Elementor text-editor widget with id="description".
+    // The actual text is inside a <p> child; target that so
+    // setting .textContent doesn't escape HTML into the wrapper.
+    var descWrapper = document.querySelector('#description');
+    var descEl      = descWrapper ? (descWrapper.querySelector('p') || descWrapper) : null;
+
+    // Indicator ring (no ID in WordPress DOM, find by class)
+    var indicatorRing = document.querySelector('.app-container .indicator-ring');
+
+    // --- Fix Elementor DOM Structure ---
+
+    // 1. Add 'circle-container' class to the parent of #ring.
+    //    In vanilla HTML this element exists; in Elementor it's an unnamed container.
+    var circleContainer = ring.parentElement;
+    if (circleContainer && !circleContainer.classList.contains('circle-container')) {
+        circleContainer.classList.add('circle-container');
+    }
+
+    // 2. Move .nav-layer to be a direct child of #app so its
+    //    position:absolute is relative to .app-container, not an Elementor wrapper.
+    var navLayer     = document.querySelector('.app-container .nav-layer');
+    var appContainer = document.getElementById('app');
+    if (navLayer && appContainer && navLayer.closest('.app-container') === appContainer) {
+        appContainer.appendChild(navLayer);
+    }
+
+    // 3. Hide the original Elementor placeholder image widget inside pie-container
+    //    (JS creates its own <img> elements for the animation).
+    var placeholderWidgets = pieContainer.querySelectorAll('.elementor-widget');
+    for (var i = 0; i < placeholderWidgets.length; i++) {
+        placeholderWidgets[i].style.display = 'none';
+    }
+
+    // --- State ---
+    var currentIndex        = 0;
+    var currentVirtualIndex = 1; // Continuous rotation tracker (matches vanilla default)
+    var totalItems          = flavors.length;
+    var isAnimating         = false;
+    var isMobile            = window.innerWidth <= 768;
+
+    // --- Layout Configuration ---
+    function getLayoutConfig() {
+        isMobile = window.innerWidth <= 768;
+        if (isMobile) {
+            var angleStepMobile = 360 / totalItems;
+            return {
+                isMobile: true,
+                angleStep: angleStepMobile,
+                startAngle: 0,
+                ringOffset: -angleStepMobile / 2
+            };
+        } else {
+            var maxTotalArc      = 170;
+            var angleStepDesktop = Math.min(35, maxTotalArc / Math.max(1, totalItems - 1));
+            var startAngleDesktop = -((totalItems - 1) / 2) * angleStepDesktop;
+            return {
+                isMobile: false,
+                angleStep: angleStepDesktop,
+                startAngle: startAngleDesktop,
+                ringOffset: 0
+            };
+        }
+    }
+
+    // --- Initialize Ring ---
+    function initRing() {
+        ring.innerHTML = '';
+        var config = getLayoutConfig();
+
+        flavors.forEach(function (flavor, index) {
+            var item = document.createElement('div');
+            item.classList.add('flavor-item');
+            item.dataset.index = index;
+
+            // Curved text effect — split into individual characters
+            var text          = flavor.name;
+            var charAngleStep = config.isMobile ? 3.5 : 2.2; 
+            var totalAngle    = (text.length - 1) * charAngleStep;
+            var startTextAngle = -totalAngle / 2;
+
+            text.split('').forEach(function (char, i) {
+                var span       = document.createElement('span');
+                span.textContent = char;
+                span.className  = 'flavor-char';
+                var charAngle    = startTextAngle + (i * charAngleStep);
+                span.style.transform = 'rotate(' + charAngle + 'deg)';
+                item.appendChild(span);
+            });
+
+            var angle = config.startAngle + (index * config.angleStep);
+            item.style.transform = 'rotate(' + angle + 'deg)';
+
+            item.addEventListener('click', function () {
+                if (!isAnimating && index !== currentIndex) {
+                    if (config.isMobile) {
+                        var diff = index - currentIndex;
+                        if (diff > totalItems / 2)  diff -= totalItems;
+                        if (diff < -totalItems / 2) diff += totalItems;
+                        currentVirtualIndex += diff;
+                    }
+                    goToFlavor(index);
+                }
+            });
+
+            ring.appendChild(item);
+        });
+
+        updateUI(currentIndex, true);
+
+        window.removeEventListener('resize', handleResize);
+        window.addEventListener('resize', handleResize);
+    }
+
+    function handleResize() {
+        var newIsMobile = window.innerWidth <= 768;
+        if (newIsMobile !== isMobile) {
+            initRing();
+        }
+    }
+
+    // --- Main Transition ---
+    function goToFlavor(newIndex) {
+        if (isAnimating) return;
+        isAnimating = true;
+
+        var oldIndex = currentIndex;
+        currentIndex = newIndex;
+
+        var flavor = flavors[currentIndex];
+        var config = getLayoutConfig();
+
+        if (!config.isMobile) {
+            updateUIClasses(currentIndex);
+        }
+
+        // 1. Animate Ring / Indicator
+        if (config.isMobile) {
+            var ringAngle = -currentVirtualIndex * config.angleStep + config.ringOffset;
+
+            gsap.to(ring, {
+                rotation: ringAngle,
+                duration: .3,
+                ease: 'power3.inOut'
+            });
+
+            var leftIndex  = currentIndex;
+            var rightIndex = (currentIndex + 1) % totalItems;
+
+            // Scope query to ring children only
+            var items = ring.querySelectorAll('.flavor-item');
+            items.forEach(function (item, i) {
+                var targetOpacity = 0;
+                var targetPointer = 'none';
+                if (i === leftIndex || i === rightIndex) {
+                    targetOpacity = 0.8;
+                    targetPointer = 'auto';
+                }
+                gsap.to(item, {
+                    opacity: targetOpacity,
+                    duration: .3,
+                    ease: 'power3.inOut',
+                    onComplete: function () {
+                        item.style.pointerEvents = targetPointer;
+                    }
+                });
+            });
+
+            if (indicatorRing) {
+                gsap.to(indicatorRing, { rotation: 0, duration: 1, ease: 'power3.inOut' });
+            }
+        } else {
+            var indicatorAngle = config.startAngle + (currentIndex * config.angleStep);
+            gsap.to(ring, { rotation: 0, duration: .3, ease: 'power3.inOut' });
+            if (indicatorRing) {
+                gsap.to(indicatorRing, { rotation: indicatorAngle, duration: .3, ease: 'power3.inOut' });
+            }
+        }
+
+        // 2. Animate Background (Crossfade)
+        var fadeLayer = document.createElement('div');
+        fadeLayer.style.position = 'absolute';
+        fadeLayer.style.top = '0';
+        fadeLayer.style.left = '0';
+        fadeLayer.style.width = '100%';
+        fadeLayer.style.height = '100%';
+        fadeLayer.style.zIndex = '1'; 
+        fadeLayer.style.opacity = '0';
+        
+        fadeLayer.style.backgroundColor = flavor.color;
+        if (flavor.bgImage && flavor.color.includes('gradient')) {
+            fadeLayer.style.backgroundImage    = 'url(' + flavor.bgImage + '), ' + flavor.color;
+            fadeLayer.style.backgroundSize     = 'cover';
+            fadeLayer.style.backgroundPosition = 'center';
+        } else if (flavor.bgImage) {
+            fadeLayer.style.backgroundImage    = 'url(' + flavor.bgImage + ')';
+            fadeLayer.style.backgroundSize     = 'cover';
+            fadeLayer.style.backgroundPosition = 'center';
+        } else if (flavor.color.includes('gradient')) {
+            fadeLayer.style.backgroundImage    = flavor.color;
+        } else {
+            fadeLayer.style.backgroundImage = 'none';
+        }
+
+        bgOverlay.appendChild(fadeLayer);
+
+        gsap.to(fadeLayer, {
+            opacity: 1,
+            duration: 0.8,
+            ease: 'power3.inOut',
+            onComplete: function () {
+                bgOverlay.style.backgroundColor = flavor.color;
+                if (flavor.bgImage && flavor.color.includes('gradient')) {
+                    bgOverlay.style.backgroundImage    = 'url(' + flavor.bgImage + '), ' + flavor.color;
+                    bgOverlay.style.backgroundSize     = 'cover';
+                    bgOverlay.style.backgroundPosition = 'center';
+                } else if (flavor.bgImage) {
+                    bgOverlay.style.backgroundImage    = 'url(' + flavor.bgImage + ')';
+                    bgOverlay.style.backgroundSize     = 'cover';
+                    bgOverlay.style.backgroundPosition = 'center';
+                } else if (flavor.color.includes('gradient')) {
+                    bgOverlay.style.backgroundImage    = flavor.color;
+                } else {
+                    bgOverlay.style.backgroundImage = 'none';
+                }
+                fadeLayer.remove();
+            }
+        });
+
+        // 3. Animate Text (title + description)
+        var animTargets = [];
+        if (titleEl) {
+            titleEl.style.translate = '';
+            animTargets.push(titleEl);
+        }
+        if (descWrapper) {
+            descWrapper.style.translate = '';
+            animTargets.push(descWrapper);
+        }
+
+        if (animTargets.length) {
+            var tlText = gsap.timeline();
+            tlText.to(animTargets, {
+                y: 0,
+                opacity: 0,
+                duration: 0.4,
+                ease: 'power2.in',
+                onComplete: function () {
+                    if (titleEl) titleEl.textContent = flavor.name;
+                    if (descEl)  descEl.textContent  = flavor.desc;
+                }
+            }).to(animTargets, {
+                y: 0,
+                opacity: 1,
+                duration: 0.6,
+                ease: 'power3.out'
+            });
+        }
+
+        // 4. Animate Pie Image
+        var oldImg = pieContainer.querySelector('img.hero-pie');
+
+        var newImg       = document.createElement('img');
+        newImg.src       = flavor.image;
+        newImg.alt       = flavor.name;
+        newImg.className = 'hero-pie';
+        newImg.style.opacity = 0;
+
+        var direction       = newIndex > oldIndex ? 1 : -1;
+        var actualDirection = direction;
+        if (oldIndex === totalItems - 1 && newIndex === 0) actualDirection =  1;
+        if (oldIndex === 0 && newIndex === totalItems - 1) actualDirection = -1;
+
+        gsap.set(newImg, { rotation: actualDirection * 45, scale: 1 });
+        pieContainer.appendChild(newImg);
+
+        if (oldImg) {
+            gsap.to(oldImg, {
+                rotation: -actualDirection * 45,
+                opacity: 0,
+                scale: 1,
+                duration: 1,
+                ease: 'back.in',
+                onComplete: function () { oldImg.remove(); }
+            });
+        }
+
+        gsap.to(newImg, {
+            rotation: 0,
+            opacity: 1,
+            scale: 1,
+            duration: 0.7,
+            ease: 'back.out',
+            onComplete: function () { isAnimating = false; }
+        });
+    }
+
+    // --- UI Class helpers ---
+    function updateUIClasses(index) {
+        var items = ring.querySelectorAll('.flavor-item');
+        items.forEach(function (item, i) {
+            // Clear any inline opacity set by GSAP for clean desktop state
+            item.style.opacity       = '';
+            item.style.pointerEvents = '';
+
+            if (i === index) {
+                item.classList.add('active');
+            } else {
+                item.classList.remove('active');
+            }
+        });
+    }
+
+    // --- Initial UI Setup ---
+    function updateUI(index) {
+        var flavor = flavors[index];
+        var config = getLayoutConfig();
+
+        if (titleEl) titleEl.textContent = flavor.name;
+        if (descEl)  descEl.textContent  = flavor.desc;
+
+        bgOverlay.style.backgroundColor = flavor.color;
+        if (flavor.bgImage && flavor.color.includes('gradient')) {
+            bgOverlay.style.backgroundImage    = 'url(' + flavor.bgImage + '), ' + flavor.color;
+            bgOverlay.style.backgroundSize     = 'cover';
+            bgOverlay.style.backgroundPosition = 'center';
+        } else if (flavor.bgImage) {
+            bgOverlay.style.backgroundImage    = 'url(' + flavor.bgImage + ')';
+            bgOverlay.style.backgroundSize     = 'cover';
+            bgOverlay.style.backgroundPosition = 'center';
+        } else if (flavor.color.includes('gradient')) {
+            bgOverlay.style.backgroundImage    = flavor.color;
+        } else {
+            bgOverlay.style.backgroundImage = 'none';
+        }
+
+        if (!config.isMobile) {
+            updateUIClasses(index);
+        }
+
+        if (config.isMobile) {
+            var ringAngle = -currentVirtualIndex * config.angleStep + config.ringOffset;
+            gsap.set(ring, { rotation: ringAngle });
+            if (indicatorRing) gsap.set(indicatorRing, { rotation: 0 });
+
+            var leftIndex  = currentIndex;
+            var rightIndex = (currentIndex + 1) % totalItems;
+
+            var items = ring.querySelectorAll('.flavor-item');
+            items.forEach(function (item, i) {
+                if (i === leftIndex || i === rightIndex) {
+                    item.style.opacity       = 0.8;
+                    item.style.pointerEvents = 'auto';
+                } else {
+                    item.style.opacity       = 0;
+                    item.style.pointerEvents = 'none';
+                }
+            });
+        } else {
+            var indicatorAngle = config.startAngle + (index * config.angleStep);
+            gsap.set(ring, { rotation: 0 });
+            if (indicatorRing) gsap.set(indicatorRing, { rotation: indicatorAngle });
+        }
+
+        // Create initial pie image (clean slate — remove any stale images first)
+        pieContainer.querySelectorAll('img.hero-pie').forEach(function (img) { img.remove(); });
+        var img       = document.createElement('img');
+        img.src       = flavor.image;
+        img.alt       = flavor.name;
+        img.className = 'hero-pie';
+        pieContainer.appendChild(img);
+    }
+
+    // --- Navigation Buttons ---
+    var prevBtn = document.getElementById('prev-btn');
+    var nextBtn = document.getElementById('next-btn');
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', function () {
+            if (!isAnimating) {
+                currentVirtualIndex--;
+                var newIdx = currentIndex - 1;
+                if (newIdx < 0) newIdx = totalItems - 1;
+                goToFlavor(newIdx);
+            }
+        });
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener('click', function () {
+            if (!isAnimating) {
+                currentVirtualIndex++;
+                var newIdx = currentIndex + 1;
+                if (newIdx >= totalItems) newIdx = 0;
+                goToFlavor(newIdx);
+            }
+        });
+    }
+
+ 
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initRing);
+    } else {
+        initRing();
+    }
+
+})();
+</script>				</div>
+				</div>
+		<div  class="elementor-element elementor-element-4873934 e-flex e-con-boxed e-con e-parent" data-id="4873934" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+				</div>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://lightslategray-goshawk-148039.hostingersite.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script data-minify="1" id="hello-theme-frontend-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=1785238683"></script>
+<script id="elementor-webpack-runtime-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.5"></script>
+<script id="elementor-frontend-modules-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.5"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":true}},"hasCustomBreakpoints":true},"version":"4.3.5","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true,"mega-menu":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"eee2bfc1e9","atomicFormsSendForm":"dc05146726"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop","viewport_widescreen"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":567,"title":"ROTATING%20CONTENT%20SLIDER%20%E2%80%93%20GSAP%20Elementor%20Tutorial%20%E2%80%93%20Portfolio%201","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5"></script>
+<script id="elementor-pro-webpack-runtime-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.2.2"></script>
+<script id="wp-hooks-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-admin\/admin-ajax.php","nonce":"7edfbfa25f","urls":{"assets":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/lightslategray-goshawk-148039.hostingersite.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.2.2"></script>
+<script id="pro-elements-handlers-js" src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.2.2"></script>
+	</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1792342839 -->
