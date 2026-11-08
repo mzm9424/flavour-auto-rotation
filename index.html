@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17110f">
+  <meta name="description" content="A responsive circular flavour slider with automatic rotation.">
+  <title>Flavour Carousel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="carousel" id="carousel" aria-label="Featured pie flavours">
+    <div class="ambient-glow" aria-hidden="true"></div>
+
+    <header class="intro">
+      <p class="eyebrow">BAKED WITH LOVE</p>
+      <h1>Find your <em>favourite</em> flavour</h1>
+      <p class="intro-copy">Explore our delicious collection, one slice at a time.</p>
+    </header>
+
+    <section class="showcase" aria-roledescription="carousel">
+      <div class="flavour-ring" id="flavour-ring" aria-label="Choose a flavour"></div>
+
+      <div class="pie-stage">
+        <div class="pie-shadow" aria-hidden="true"></div>
+        <img
+          class="pie-image"
+          id="pie-image"
+          src="https://lightslategray-goshawk-148039.hostingersite.com/wp-content/uploads/2026/07/bolw-4-1.png"
+          alt="Kiwi pie"
+          fetchpriority="high"
+        >
+      </div>
+
+      <div class="slide-copy" aria-live="polite" aria-atomic="true">
+        <p class="slide-kicker" id="slide-kicker">OUR SIGNATURE FLAVOUR</p>
+        <h2 id="flavour-title">Kiwi</h2>
+        <p id="flavour-description">
+          A bright, fresh and fruity favourite, made for a deliciously memorable treat.
+        </p>
+      </div>
+
+      <div class="controls">
+        <button class="nav-button" id="prev-btn" type="button" aria-label="Previous flavour">
+          <span aria-hidden="true">←</span>
+        </button>
+        <div class="slide-status">
+          <span id="current-count">01</span>
+          <span class="status-line" aria-hidden="true"></span>
+          <span id="total-count">04</span>
+        </div>
+        <button class="nav-button" id="next-btn" type="button" aria-label="Next flavour">
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+
+      <button class="pause-button" id="pause-btn" type="button" aria-pressed="false">
+        <span class="pause-icon" aria-hidden="true">Ⅱ</span>
+        <span id="pause-label">Pause rotation</span>
+      </button>
+    </section>
+
+    <p class="bottom-note">A LITTLE SLICE OF HAPPINESS</p>
+  </main>
+</body>
+</html>
